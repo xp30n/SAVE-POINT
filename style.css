@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'SavePoint';
-    src: url('./assets/fonts/851Gkktt_005.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "SavePoint";
+  src: url("./assets/fonts/851Gkktt_005.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 html,
 body {
@@ -20,11 +20,26 @@ body {
   height: 32px;
   -webkit-app-region: drag;
   color: #aaa;
-  font-family: 'SavePoint';
+  font-family: "SavePoint";
   letter-spacing: 0.1em;
 }
 
-h1 {
-    font-family: 'SavePoint';
-  color: white;
+.text-wrapper {
+    text-align: center;
 }
+
+.gradient-text {
+    font-family: "SavePoint";
+    font-size: 65px;
+    letter-spacing: 14.96px;
+    background: linear-gradient(
+      180deg,
+      #373af6 35.39%,
+      #FFF 70.41%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  
