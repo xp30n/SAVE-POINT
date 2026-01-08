@@ -7,7 +7,7 @@ function createWindow() {
     })
 
     win.loadFile('index.html')
-    win.setAlwaysOnTop;
+    win.setAlwaysOnTop(true);
 }
 
 app.whenReady().then(createWindow);
