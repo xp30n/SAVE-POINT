@@ -16,30 +16,57 @@ body {
   background: linear-gradient(180deg, #0c073a 32.65%, #000 83.55%);
 }
 
-.title-bar {
+/* .title-bar {
   height: 32px;
   -webkit-app-region: drag;
   color: #aaa;
   font-family: "SavePoint";
   letter-spacing: 0.1em;
-}
+} */
 
 .text-wrapper {
-    text-align: center;
+  text-align: center;
+  transform: translateY(40px);
 }
 
 .gradient-text {
-    font-family: "SavePoint";
-    font-size: 65px;
-    letter-spacing: 14.96px;
-    background: linear-gradient(
-      180deg,
-      #373af6 35.39%,
-      #FFF 70.41%
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-  }
-  
+  font-family: "SavePoint";
+  font-size: 65px;
+  letter-spacing: 14.96px;
+  background: linear-gradient(180deg, #1a125d 45.39%, #fff 85.41%);
+  transform: translate(15px, 190px);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.subtitle {
+  font-family: "SavePoint";
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 270px;
+  color: white;
+  text-align: center;
+  transform: translateY(150px);
+}
+
+.start-title {
+    font-family: 'SavePoint';
+    font-size: 25px;
+    color: white;
+    transform: translate(255px, 330px);
+}
+
+.start-button {
+    color: transparent;
+    background: transparent;
+    text-align: center;
+    transform: translate(270px, 420px);
+    border: none;
+    -webkit-text-stroke: 4px #ffffff;
+    font-size: 45px;
+    cursor: pointer;
+}
